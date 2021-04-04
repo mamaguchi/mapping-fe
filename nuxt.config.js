@@ -76,9 +76,9 @@ export default {
       "vuetify/lib/mixins",
       "vuetify/lib/components/VCard"
     ],
-    vendor: [
-      'ol',
-    ],
+    // vendor: [
+    //   'ol',
+    // ],
     extend (config, ctx) {
       if (ctx.isDev && ctx.isClient) {
           config.module.rules.push({
